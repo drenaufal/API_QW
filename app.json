@@ -1,0 +1,57 @@
+{
+  "id": "4ff3e792-f0a0-436d-a833-5f04fb522863",
+  "name": "API",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "a215bba4-04f0-4927-97e9-06c493ddea5b",
+      "name": "BC_Panatrade",
+      "publisher": "R Systems Ibizcs Pte Ltd",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "a74a133c-ec62-4238-88bd-a61e912bfecc",
+      "name": "PRI Jubelio Integration",
+      "publisher": "R Systems IBIZCS International",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "82bdc5a0-9593-4f86-9306-0ba3439c2f53",
+      "name": "PP Dispatch Resi & Data",
+      "publisher": "Panatrade Prestasi",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "07bd6e63-dd5c-4c5f-8404-1516308deac9",
+      "name": "PP PRI Jubelio Integration",
+      "publisher": "Panatrade Prestasi",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "8.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
