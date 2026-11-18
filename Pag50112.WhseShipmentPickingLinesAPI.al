@@ -1,8 +1,8 @@
-page 50112 "Whse. Shpt. Picking Line API"
+page 50112 "PP Whse Shpt Picking Line API"
 {
     PageType = API;
     // PageType = ListPart;
-    Caption = 'whseShipmentPickingLine';
+    Caption = 'PP whseShipmentPickingLine';
     APIPublisher = 'panatrade';
     APIGroup = 'warehouse';
     APIVersion = 'v1.0';

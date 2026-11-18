@@ -1,7 +1,7 @@
-page 50108 "Posted Whse. Shpt. Line API"
+page 50108 "PP Posted Whse. Shpt. Line API"
 {
     PageType = API;
-    Caption = 'postedWarehouseShipmentLine';
+    Caption = 'PP postedWarehouseShipmentLine';
     APIPublisher = 'panatrade';
     APIGroup = 'warehouse';
     APIVersion = 'v1.0';

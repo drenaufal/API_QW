@@ -1,4 +1,4 @@
-table 50115 "Dispatch API Buffer"
+table 50115 "PP Dispatch API Buffer"
 {
     DataClassification = CustomerContent;
     TableType = Temporary;

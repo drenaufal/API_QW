@@ -1,7 +1,7 @@
-page 50107 "Posted Whse. Shipment API"
+page 50107 "PP Posted Whse. Shipment API"
 {
     PageType = API;
-    Caption = 'postedWarehouseShipment';
+    Caption = 'PP postedWarehouseShipment';
     APIPublisher = 'panatrade';
     APIGroup = 'warehouse';
     APIVersion = 'v1.0';
@@ -52,7 +52,7 @@ page 50107 "Posted Whse. Shipment API"
                 }
 
                 // Nested Lines Subform
-                part(lines; "Posted Whse. Shpt. Line API")
+                part(lines; "PP Posted Whse. Shpt. Line API")
                 {
                     Caption = 'Lines';
                     EntityName = 'postedWarehouseShipmentLine';

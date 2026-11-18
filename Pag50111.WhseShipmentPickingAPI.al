@@ -1,7 +1,7 @@
-page 50111 "Whse. Shipment Picking API"
+page 50111 "PP Whse. Shipment Picking API"
 {
     PageType = API;
-    Caption = 'whseShipmentPicking';
+    Caption = 'PP whseShipmentPicking';
     APIPublisher = 'panatrade';
     APIGroup = 'warehouse';
     APIVersion = 'v1.0';
@@ -64,7 +64,7 @@ page 50111 "Whse. Shipment Picking API"
                 }
 
                 // Nested Lines Subform
-                part(lines; "Whse. Shpt. Picking Line API")
+                part(lines; "PP Whse Shpt Picking Line API")
                 {
                     Caption = 'Lines';
                     EntityName = 'whseShipmentPickingLine';

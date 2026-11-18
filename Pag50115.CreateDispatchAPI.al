@@ -1,13 +1,13 @@
-page 50115 "Create Dispatch API"
+page 50115 "PP Create Dispatch API"
 {
     PageType = API;
-    Caption = 'createDispatch';
+    Caption = 'PP createDispatch';
     APIPublisher = 'panatrade';
     APIGroup = 'warehouse';
     APIVersion = 'v1.0';
     EntityName = 'createDispatch';
     EntitySetName = 'createDispatch';
-    SourceTable = "Dispatch API Buffer";
+    SourceTable = "PP Dispatch API Buffer";
     DelayedInsert = true;
 
     layout
