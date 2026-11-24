@@ -74,11 +74,14 @@ page 50115 "PP Create Dispatch API"
         if TotalScanned = 0 then
             Error('Tidak ada Shipment No. yang berhasil di-scan.');
 
-        // 3. Kembalikan data hasil ke response JSON
+        // 3. Ubah status Dispatch dari Open menjadi Released
+        DispatchHdr.Release(DispatchHdr."Document No.");
+
+        // 4. Kembalikan data hasil ke response JSON
         Rec."Dispatch No." := DispatchHdr."Document No.";
         Rec.Status := 'Success';
         Rec."Total Scanned" := TotalScanned;
-        Rec.Message := StrSubstNo('Berhasil membuat Dispatch %1 dengan %2 shipment.', DispatchHdr."Document No.", TotalScanned);
+        Rec.Message := StrSubstNo('Berhasil membuat Dispatch %1 (Released) dengan %2 shipment.', DispatchHdr."Document No.", TotalScanned);
         exit(true);
     end;
 }
