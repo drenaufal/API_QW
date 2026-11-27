@@ -8,7 +8,7 @@ page 50107 "PP Posted Whse. Shipment API"
     EntityName = 'postedWarehouseShipment';
     EntitySetName = 'postedWarehouseShipments';
     SourceTable = "Posted Whse. Shipment Header";
-    SourceTableView = where("New Delivery Priority" = filter('PRIO-1*' | 'PRIO-2*'));
+    SourceTableView = where("New Delivery Priority" = filter('PRIO-0*' | 'PRIO-1*' | 'PRIO-2*'), "Dispatch Document No. Line" = filter(0));
     DelayedInsert = true;
     InsertAllowed = false;
     ModifyAllowed = false;

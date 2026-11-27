@@ -9,7 +9,7 @@ page 50111 "PP Whse. Shipment Picking API"
     EntitySetName = 'whseShipmentPickings';
     SourceTable = "Warehouse Shipment Header";
     // SourceTableView = where("New Delivery Priority" = filter('<>PRIO-3*'), "Total Qty. Picking" = filter(> 0));
-    SourceTableView = where("New Delivery Priority" = filter(('PRIO-1*' | 'PRIO-2*' | 'PRIO-0*')), "Total Qty. Picking" = filter(> 0));
+    SourceTableView = where("New Delivery Priority" = filter(('PRIO-1*' | 'PRIO-2*' | 'PRIO-0*')), "Total Qty. Picking" = filter(> 0), "Status Order" = filter('Processed'));
     DelayedInsert = true;
     InsertAllowed = false;
     ModifyAllowed = false;
